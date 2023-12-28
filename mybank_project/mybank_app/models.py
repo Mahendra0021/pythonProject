@@ -10,7 +10,7 @@ class Service(models.Model):
 
 class BankAccount(models.Model):
     full_name = models.CharField(max_length=100)
-    phone_number = models.CharField(max_length=15)
+    phone_number = models.IntegerField(max_length=100)
     # id_proof = models.CharField(max_length=20)
     # account_type = models.CharField(max_length=10)
     # email_address = models.EmailField()
